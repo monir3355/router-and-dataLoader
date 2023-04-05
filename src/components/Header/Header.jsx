@@ -19,6 +19,7 @@ const Header = () => {
         <ul className={`md:flex gap-4 md:static absolute bg-slate-700 opacity-75 md:bg-slate-900 duration-200 ${menus ? '-right-96' : 'right-0 mt-14 p-5'}`}>
           <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/">Home</Link></li>
           <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/friends">Friends</Link></li>
+          <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/posts">Posts</Link></li>
           <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/blog">Blog</Link></li>
           <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/about">About</Link></li>
           <li className='text-white p-2 rounded-md hover:bg-slate-900 md:hover:bg-slate-700'><Link to="/contact">Contact</Link></li>
